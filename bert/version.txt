@@ -1,0 +1,17 @@
+6月：加入读取黄金标准数据集的方法
+7月：读取10000数据，加入日期和用户名
+7月25日：加入测试集与验证集，比例6：2：2
+7月26日：加入简化版数据集（***_experiment.txt），简化日期为购买日期和评论日期差、评论的时刻（小时），去除用户名的*符号
+7月27日：补充读取数据的函数read_10000()的参数length
+
+计划:
+bert:training,test,valid error              完成
+进行对比（SVM,LSTM,决策树...）大致三个
+active learning
+
+从原论文中：
+we found the following range of possible values to work well across all tasks:
+• Batch size: 16, 32
+• Learning rate (Adam): 5e-5, 3e-5, 2e-5
+• Number of epochs: 2, 3, 4
+

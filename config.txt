@@ -1,0 +1,9 @@
+batch_size = 1
+max_seq_length = 460
+iter_num = 9
+
+lr = 0.00002
+
+train_files = data_simplified/train_experiment
+test_files = data_simplified/test_experiment
+verify_files = data_split/test
